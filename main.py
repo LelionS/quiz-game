@@ -77,6 +77,7 @@ else:
     print('thank you you are out of a game.')
     quit()
 
+# ------score
 print(f'\nnumber of question is {question_no}')
 print(f'your score is {score}')
 try:
