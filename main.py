@@ -80,6 +80,7 @@ else:
 # ------score
 print(f'\nnumber of question is {question_no}')
 print(f'your score is {score}')
+# ------changing to percentage
 try:
     percentage = (score *100)/question_no
 except ZeroDivisionError:
